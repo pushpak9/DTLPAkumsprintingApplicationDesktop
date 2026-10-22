@@ -1,0 +1,63 @@
+<xpml><page quantity='0' pitch='152.4 mm'></xpml>SIZE 101.6 mm, 152.4 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='152.4 mm'></xpml>SET TEAR ON
+CLS
+QRCODE 380,1118,L,4,A,90,M2,S7,"#VarBarcode#"
+BOX 72,17,1183,1775,4
+BAR 1091,27, 4, 1763
+CODEPAGE 1252
+TEXT 1165,678,"0",90,14,16,"SHIPPER LABEL"
+TEXT 1076,56,"0",90,10,10,"Product Name :"
+TEXT 900,56,"0",90,9,10,"Batch No. :"
+TEXT 785,56,"0",90,10,10,"#VarExpiryDateLabel#"
+TEXT 843,56,"0",90,10,10,"Mfg. Date :"
+TEXT 726,56,"0",90,10,10,"Quantity :"
+TEXT 668,56,"0",90,10,10,"Mfg.Lic.No. :"
+TEXT 610,56,"0",90,10,10,"Medicine :"
+TEXT 900,341,"0",90,10,10,"#VarBatchNo#"
+TEXT 843,341,"0",90,10,10,"#VarMfgDate#"
+TEXT 785,341,"0",90,10,10,"#VarExpiryDate#"
+TEXT 726,341,"0",90,10,10,"#VarQuantity#"
+TEXT 668,341,"0",90,10,10,"#VarMfgLicNo#"
+TEXT 610,341,"0",90,10,10,"#VarMedicine#"
+BAR 174,19, 4, 1763
+BAR 173,900, 918, 4
+BAR 338,19, 4, 883
+TEXT 390,56,"0",90,13,12,"Supervisor's Name :"
+TEXT 483,56,"0",90,14,14,"Gross Weight :"
+BOX 410,35,510,671,4
+TEXT 320,56,"0",90,13,12,"Storage :"
+TEXT 265,56,"0",90,8,9,"#VarStorageConditionValue0#"
+TEXT 155,49,"0",90,8,7,"VERIFY GROSS WEIGHT BEFORE OPENING, NO SHORTAGE COMPLAINTS SHALL BE ADDRESSED AFTER OPENING."
+BAR 403,906, 4, 872
+TEXT 1074,919,"0",90,13,12,"Manufactured by :"
+TEXT 1014,919,"0",90,7,8,"#VarManufacturedBy#"
+TEXT 973,919,"0",90,7,8,"#VarAddress1#"
+TEXT 923,919,"0",90,7,8,"#VarAddress2#"
+TEXT 872,919,"0",90,7,8,"#VarAddress3#"
+TEXT 743,924,"0",90,13,12,"Marketed by :"
+TEXT 478,458,"0",90,13,12,"#VarGrossWeight#"
+TEXT 556,56,"0",90,10,10,"#VarSampleCondition#"
+TEXT 1165,1272,"0",90,14,16,"No.:"
+TEXT 1165,1426,"0",90,14,16,"#Varboxno#"
+TEXT 55,44,"0",90,10,9,"FORMAT NO.: HPK-034/F02-00"
+TEXT 1074,343,"0",90,10,10,"#VarProductValue0#"
+BAR 507,773, 383, 21
+DIAGONAL 880,786,792,874,21
+DIAGONAL 881,783,801,688,21
+TEXT 680,927,"0",90,7,8,"#VarMktCustomerName#"
+TEXT 633,927,"0",90,7,8,"#VarMktAddress0#"
+TEXT 586,927,"0",90,7,8,"#VarMktAddress1#"
+TEXT 224,55,"0",90,8,9,"#VarStorageConditionValue1#"
+TEXT 1016,340,"0",90,10,10,"#VarProductValue1#"
+TEXT 539,927,"0",90,7,8,"#VarMktAddress2#"
+TEXT 491,927,"0",90,7,8,"#VarMktAddress3#"
+TEXT 444,927,"0",90,7,8,"#VarMktAddress4#"
+TEXT 958,342,"0",90,10,10,"#VarProductValue2#"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
